@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Rushabh Makwana <rushbh1992@gmail.com>
+MAINTAINER Rushabh Makwana <rushabh.makwana@multidots.com>
 RUN apt-get -y update
 RUN apt-get -y install git curl libcurl3 libcurl3-dev
 RUN apt-get -y install apache2 
